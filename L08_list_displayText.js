@@ -52,20 +52,20 @@
 
 ///////////////////////////////////////////////////////
 // Task 2:
-// let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
+let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 
-// function setup() {
-//   createCanvas(400, 400);
+function setup() {
+  createCanvas(400, 400);
 
-//   textSize(16);
-//   textAlign(LEFT);
+  textSize(16);
+  textAlign(LEFT);
 
-//   text("My Favourite Foods:", 50, 50);
+  text("My Favourite Foods:", 50, 50);
 
-//   for (let i = 0; i < foods.length; i++) {
-//     text((i + 1) + ". " + foods[i], 50, 80 + i * 25);
-//   }
-// }
+  for (let i = 0; i < foods.length; i++) {
+    text((i + 1) + ". " + foods[i], 50, 80 + i * 25);
+  }
+}
 
 
 /////////////////////////////////////////////////////////
