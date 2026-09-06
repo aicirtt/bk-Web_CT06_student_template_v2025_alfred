@@ -70,85 +70,85 @@ function setup() {
 
 /////////////////////////////////////////////////////////
 // Task 3: Scrolling Words
-let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
+// let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 
-let yPos = 400;
+// let yPos = 400;
 
-function setup() {
-  createCanvas(400, 400);
-  textSize(16);
-  textAlign(LEFT);
-}
+// function setup() {
+//   createCanvas(400, 400);
+//   textSize(16);
+//   textAlign(LEFT);
+// }
 
-function draw() {
-  background(0);
+// function draw() {
+//   background(0);
 
-  fill(255);
+//   fill(255);
 
-  text("My Favourite Foods:", 50, yPos);
+//   text("My Favourite Foods:", 50, yPos);
 
-  for (let i = 0; i < foods.length; i++) {
-    text((i + 1) + ". " + foods[i], 50, yPos + 30 + i * 25);
-  }
+//   for (let i = 0; i < foods.length; i++) {
+//     text((i + 1) + ". " + foods[i], 50, yPos + 30 + i * 25);
+//   }
 
-  yPos = yPos - 1;
-}
+//   yPos = yPos - 1;
+// }
 
 
 /////////////////////////////////////////////////////////
 // Task 4: Endless Scrolling
 
-let storyText = [
-  "A long time ago in a galaxy far,",
-  "far away...",
-  "",
-  "EPISODE I",
-  "THE BEGINNING",
-  "",
-  "It is a period of learning...",
-  "Students have begun their journey",
-  "into the world of p5.js.",
-  "With newfound powers, they",
-  "create amazing visuals and",
-  "animations...",
-  "",
-  "May the Code be with you!"
-];
+// let storyText = [
+//   "A long time ago in a galaxy far,",
+//   "far away...",
+//   "",
+//   "EPISODE I",
+//   "THE BEGINNING",
+//   "",
+//   "It is a period of learning...",
+//   "Students have begun their journey",
+//   "into the world of p5.js.",
+//   "With newfound powers, they",
+//   "create amazing visuals and",
+//   "animations...",
+//   "",
+//   "May the Code be with you!"
+// ];
 
-let yPos = 400;
-let lineGap = 35;
+// let yPos = 400;
+// let lineGap = 35;
 
-function setup() {
-  createCanvas(400, 400);
-}
+// function setup() {
+//   createCanvas(400, 400);
+// }
 
-function draw() {
-  background(0);
+// function draw() {
+//   background(0);
 
-  fill(255, 255, 0);
-  textSize(24);
-  textAlign(CENTER, CENTER);
+//   fill(255, 255, 0);
+//   textSize(24);
+//   textAlign(CENTER, CENTER);
 
-  // Display every line in the array
-  for (let i = 0; i < storyText.length; i++) {
-    let sentence = storyText[i];
+//   // Display every line in the array
+//   for (let i = 0; i < storyText.length; i++) {
+//     let sentence = storyText[i];
 
-    text(
-      sentence,
-      width / 2,
-      yPos + i * lineGap
-    );
-  }
+//     text(
+//       sentence,
+//       width / 2,
+//       yPos + i * lineGap
+//     );
+//   }
 
-  // Move the text upwards
-  yPos = yPos - 0.6;
+//   // Move the text upwards
+//   yPos = yPos - 0.6;
 
-  // If the whole story has moved off screen,
-  // move it back to the bottom
-  if (yPos < -storyText.length * lineGap) {
-    yPos = height;
-  }
-}
+//   // If the whole story has moved off screen,
+//   // move it back to the bottom
+//   if (yPos < -storyText.length * lineGap) {
+//     yPos = height;
+//   }
+// }
 
 /////////////////////////////////////////////////////////
 // Challenge 1: Background music
