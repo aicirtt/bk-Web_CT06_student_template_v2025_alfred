@@ -3,51 +3,51 @@
 /////////////////////////////////////////////////////////
 // Recap 1: Sliding Square
 
-let x = 0;
-let y = 120;
-let size = 40;
-let speed = 3;
+// let x = 0;
+// let y = 120;
+// let size = 40;
+// let speed = 3;
 
-let r = 150;
-let g = 50;
-let b = 200;
+// let r = 150;
+// let g = 50;
+// let b = 200;
 
-function setup() {
-  createCanvas(400, 300);
-}
+// function setup() {
+//   createCanvas(400, 300);
+// }
 
-function draw() {
-  background(220);
+// function draw() {
+//   background(220);
 
-  // Draw square
-  fill(r, g, b);
-  square(x, y, size);
+//   // Draw square
+//   fill(r, g, b);
+//   square(x, y, size);
 
-  // Move horizontally
-  x = x + speed;
+//   // Move horizontally
+//   x = x + speed;
 
-  // Bounce off left/right edges
-  if (x <= 0 || x + size >= width) {
-    speed = speed * -1;
+//   // Bounce off left/right edges
+//   if (x <= 0 || x + size >= width) {
+//     speed = speed * -1;
 
-    // Random colour after every bounce
-    r = random(255);
-    g = random(255);
-    b = random(255);
-  }
-}
+//     // Random colour after every bounce
+//     r = random(255);
+//     g = random(255);
+//     b = random(255);
+//   }
+// }
 
 ///////////////////////////////////////////////////////
 // Task 1: Self Introduction
-// function setup() {
-//   createCanvas(400, 400);
+function setup() {
+  createCanvas(400, 400);
 
-//   textSize(16);
+  textSize(16);
 
-//   text("My name is Tricia", 50, 50);
-//   text("I am 7 years old", 50, 100);
-//   text("My favourite activity is coding", 50, 150);
-// }
+  text("My name is Tricia", 50, 50);
+  text("I am 7 years old", 50, 100);
+  text("My favourite activity is coding", 50, 150);
+}
 
 
 ///////////////////////////////////////////////////////
