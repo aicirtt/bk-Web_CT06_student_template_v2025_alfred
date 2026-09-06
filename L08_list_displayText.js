@@ -3,13 +3,38 @@
 /////////////////////////////////////////////////////////
 // Recap 1: Sliding Square
 
-function setup(){
-    createCanvas(600,600);
-    background(220);
+let x = 0;
+let y = 120;
+let size = 40;
+let speed = 3;
+
+let r = 150;
+let g = 50;
+let b = 200;
+
+function setup() {
+  createCanvas(400, 300);
 }
 
-function draw(){
- 
+function draw() {
+  background(220);
+
+  // Draw square
+  fill(r, g, b);
+  square(x, y, size);
+
+  // Move horizontally
+  x = x + speed;
+
+  // Bounce off left/right edges
+  if (x <= 0 || x + size >= width) {
+    speed = speed * -1;
+
+    // Random colour after every bounce
+    r = random(255);
+    g = random(255);
+    b = random(255);
+  }
 }
 
 /////////////////////////////////////////////////////////
