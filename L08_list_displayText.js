@@ -4,7 +4,8 @@
 // Recap 1: Sliding Square
 
 function setup(){
-    createCanvas*=(600,600)
+    createCanvas(600,600);
+    
 }
 
 function draw(){
