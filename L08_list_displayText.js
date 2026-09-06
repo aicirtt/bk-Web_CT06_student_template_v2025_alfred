@@ -45,7 +45,7 @@ function setup() {
   textSize(16);
 
   text("My name is Tricia", 50, 50);
-  text("I am ___ years old", 50, 100);
+  text("I am 7 years old", 50, 100);
   text("My favourite activity is coding", 50, 150);
 }
 
