@@ -156,7 +156,7 @@ let lineGap = 35;
 let bgMusic;
 
 function preload() {
-  bgMusic = loadSound("star_wars_theme_8_bit.mp3");
+  bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
 }
 
 function setup() {
