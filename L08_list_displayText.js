@@ -152,6 +152,69 @@
 
 /////////////////////////////////////////////////////////
 // Challenge 1: Background music
+// let storyText = [
+//   "A long time ago in a galaxy far,",
+//   "far away...",
+//   "",
+//   "EPISODE I",
+//   "THE BEGINNING",
+//   "",
+//   "It is a period of learning...",
+//   "Students have begun their journey",
+//   "into the world of p5.js.",
+//   "With newfound powers, they",
+//   "create amazing visuals and",
+//   "animations...",
+//   "",
+//   "May the Code be with you!"
+// ];
+
+// let yPos = 400;
+// let lineGap = 35;
+
+// let bgMusic;
+
+// function preload() {
+//   bgMusic = loadSound("star_wars_theme_8_bit.mp3");
+// }
+
+// function setup() {
+//   createCanvas(400, 400);
+// }
+
+// function draw() {
+//   background(0);
+
+//   fill(255, 255, 0);
+//   textSize(24);
+//   textAlign(CENTER, CENTER);
+
+//   for (let i = 0; i < storyText.length; i++) {
+//     text(
+//       storyText[i],
+//       width / 2,
+//       yPos + i * lineGap
+//     );
+//   }
+
+//   // Move text upwards
+//   yPos = yPos - 0.6;
+
+//   // Reset when the whole story goes off screen
+//   if (yPos < -storyText.length * lineGap) {
+//     yPos = height;
+//   }
+// }
+
+// function mousePressed() {
+//   userStartAudio();
+
+//   if (!bgMusic.isPlaying()) {
+//     bgMusic.loop();
+//   }
+// }
+/////////////////////////////////////////////////////////
+// Challenge 2: Click to start
 let storyText = [
   "A long time ago in a galaxy far,",
   "far away...",
@@ -174,6 +237,9 @@ let lineGap = 35;
 
 let bgMusic;
 
+// Boolean flag
+let started = false;
+
 function preload() {
   bgMusic = loadSound("star_wars_theme_8_bit.mp3");
 }
@@ -185,37 +251,51 @@ function setup() {
 function draw() {
   background(0);
 
-  fill(255, 255, 0);
-  textSize(24);
-  textAlign(CENTER, CENTER);
+  // BEFORE CLICKING
+  if (started == false) {
+    fill(255);
+    textSize(24);
+    textAlign(CENTER, CENTER);
 
-  for (let i = 0; i < storyText.length; i++) {
     text(
-      storyText[i],
+      "Click to start the show",
       width / 2,
-      yPos + i * lineGap
+      height / 2
     );
   }
 
-  // Move text upwards
-  yPos = yPos - 0.6;
+  // AFTER CLICKING
+  else {
+    fill(255, 255, 0);
+    textSize(24);
+    textAlign(CENTER, CENTER);
 
-  // Reset when the whole story goes off screen
-  if (yPos < -storyText.length * lineGap) {
-    yPos = height;
+    for (let i = 0; i < storyText.length; i++) {
+      text(
+        storyText[i],
+        width / 2,
+        yPos + i * lineGap
+      );
+    }
+
+    // Move text upwards
+    yPos = yPos - 0.6;
+
+    // Reset when story goes off screen
+    if (yPos < -storyText.length * lineGap) {
+      yPos = height;
+    }
   }
 }
 
 function mousePressed() {
-  userStartAudio();
+  if (started == false) {
+    started = true;
 
-  if (!bgMusic.isPlaying()) {
+    userStartAudio();
     bgMusic.loop();
   }
 }
-/////////////////////////////////////////////////////////
-// Challenge 2: Click to start
-
 
 
 /////////////////////////////////////////////////////////
