@@ -39,15 +39,15 @@
 
 ///////////////////////////////////////////////////////
 // Task 1: Self Introduction
-function setup() {
-  createCanvas(400, 400);
+// function setup() {
+//   createCanvas(400, 400);
 
-  textSize(16);
+//   textSize(16);
 
-  text("My name is Tricia", 50, 50);
-  text("I am 7 years old", 50, 100);
-  text("My favourite activity is coding", 50, 150);
-}
+//   text("My name is Tricia", 50, 50);
+//   text("I am 7 years old", 50, 100);
+//   text("My favourite activity is coding", 50, 150);
+// }
 
 
 ///////////////////////////////////////////////////////
