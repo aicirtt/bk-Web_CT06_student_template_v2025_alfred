@@ -199,78 +199,78 @@ let lineGap = 35;
 /////////////////////////////////////////////////////////
 // Challenge 2: Click to start
 
-// let storyText = [
-//   "A long time ago in a galaxy far,",
-//   "far away...",
-//   "",
-//   "EPISODE I",
-//   "THE BEGINNING",
-//   "",
-//   "It is a period of learning...",
-//   "Students have begun their journey",
-//   "into the world of p5.js.",
-//   "With newfound powers, they",
-//   "create amazing visuals and",
-//   "animations...",
-//   "",
-//   "May the Code be with you!"
-// ];
+let storyText = [
+  "A long time ago in a galaxy far,",
+  "far away...",
+  "",
+  "EPISODE I",
+  "THE BEGINNING",
+  "",
+  "It is a period of learning...",
+  "Students have begun their journey",
+  "into the world of p5.js.",
+  "With newfound powers, they",
+  "create amazing visuals and",
+  "animations...",
+  "",
+  "May the Code be with you!"
+];
 
-// let yPos = 400;
-// let lineGap = 35;
+let yPos = 400;
+let lineGap = 35;
 
-// let started = false;
-// let bgMusic;
+let started = false;
+let bgMusic;
 
-// function preload() {
-//   bgMusic = loadSound("star_wars_theme_8_bit.mp3");
-// }
+function preload() {
+  bgMusic = loadSound("star_wars_theme_8_bit.mp3");
+}
 
-// function setup() {
-//   createCanvas(400, 400);
-// }
+function setup() {
+  createCanvas(400, 400);
+}
 
-// function draw() {
-//   background(0);
+function draw() {
+  background(0);
 
-//   if (started == false) {
-//     // Start screen
-//     fill(255);
-//     textSize(24);
-//     textAlign(CENTER, CENTER);
-//     text("Click to start the show", width / 2, height / 2);
+  if (started == false) {
+    // Start screen
+    fill(255);
+    textSize(24);
+    textAlign(CENTER, CENTER);
+    text("Click to start the show", width / 2, height / 2);
 
-//   } else {
-//     // Show the scrolling story
-//     fill(255, 255, 0);
-//     textSize(24);
-//     textAlign(CENTER, CENTER);
+  } else {
+    // Show the scrolling story
+    fill(255, 255, 0);
+    textSize(24);
+    textAlign(CENTER, CENTER);
 
-//     for (let i = 0; i < storyText.length; i++) {
-//       text(
-//         storyText[i],
-//         width / 2,
-//         yPos + i * lineGap
-//       );
-//     }
+    for (let i = 0; i < storyText.length; i++) {
+      text(
+        storyText[i],
+        width / 2,
+        yPos + i * lineGap
+      );
+    }
 
-//     // Scroll upwards
-//     yPos = yPos - 0.6;
+    // Scroll upwards
+    yPos = yPos - 0.6;
 
-//     // Reset when story goes off screen
-//     if (yPos < -storyText.length * lineGap) {
-//       yPos = height;
-//     }
-//   }
-// }
+    // Reset when story goes off screen
+    if (yPos < -storyText.length * lineGap) {
+      yPos = height;
+    }
+  }
+}
 
-// function mousePressed() {
-//   if (started == false) {
-//     started = true;
+function mousePressed() {
+  if (started == false) {
+    started = true;
 
-//     userStartAudio();
-//     bgMusic.loop();
-//   }
-// }
+    userStartAudio();
+    bgMusic.loop();
+  }
+}
 
 /////////////////////////////////////////////////////////
