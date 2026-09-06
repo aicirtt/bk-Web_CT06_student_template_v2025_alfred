@@ -153,23 +153,23 @@ function draw() {
 /////////////////////////////////////////////////////////
 // Challenge 1: Background music
 
-let bgMusic;
+// let bgMusic;
 
-function preload() {
-  bgMusic = loadSound("star_wars_theme_8_bit.mp3");
-}
+// function preload() {
+//   bgMusic = loadSound("star_wars_theme_8_bit.mp3");
+// }
 
-function setup() {
-  createCanvas(400, 400);
-}
+// function setup() {
+//   createCanvas(400, 400);
+// }
 
-function mousePressed() {
-  userStartAudio();
+// function mousePressed() {
+//   userStartAudio();
 
-  if (!bgMusic.isPlaying()) {
-    bgMusic.loop();
-  }
-}
+//   if (!bgMusic.isPlaying()) {
+//     bgMusic.loop();
+//   }
+// }
 /////////////////////////////////////////////////////////
 // Challenge 2: Click to start
 
