@@ -5,6 +5,10 @@
 
 function setup(){}
 
+function draw(){
+    
+}
+
 /////////////////////////////////////////////////////////
 // Task 1: Self Introduction
 
