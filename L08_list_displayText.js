@@ -70,7 +70,29 @@ function setup() {
 
 /////////////////////////////////////////////////////////
 // Task 3: Scrolling Words
+let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 
+let yPos = 400;
+
+function setup() {
+  createCanvas(400, 400);
+  textSize(16);
+  textAlign(LEFT);
+}
+
+function draw() {
+  background(0);
+
+  fill(255);
+
+  text("My Favourite Foods:", 50, yPos);
+
+  for (let i = 0; i < foods.length; i++) {
+    text((i + 1) + ". " + foods[i], 50, yPos + 30 + i * 25);
+  }
+
+  yPos = yPos - 1;
+}
 
 
 /////////////////////////////////////////////////////////
