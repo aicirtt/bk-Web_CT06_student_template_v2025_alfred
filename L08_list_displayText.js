@@ -122,33 +122,33 @@ let lineGap = 35;
 //   createCanvas(400, 400);
 // }
 
-// function draw() {
-//   background(0);
+function draw() {
+  background(0);
 
-//   fill(255, 255, 0);
-//   textSize(24);
-//   textAlign(CENTER, CENTER);
+  fill(255, 255, 0);
+  textSize(24);
+  textAlign(CENTER, CENTER);
 
-//   // Display every line in the array
-//   for (let i = 0; i < storyText.length; i++) {
-//     let sentence = storyText[i];
+  // Display every line in the array
+  for (let i = 0; i < storyText.length; i++) {
+    let sentence = storyText[i];
 
-//     text(
-//       sentence,
-//       width / 2,
-//       yPos + i * lineGap
-//     );
-//   }
+    text(
+      sentence,
+      width / 2,
+      yPos + i * lineGap
+    );
+  }
 
-//   // Move the text upwards
-//   yPos = yPos - 0.6;
+  // Move the text upwards
+  yPos = yPos - 0.6;
 
-//   // If the whole story has moved off screen,
-//   // move it back to the bottom
-//   if (yPos < -storyText.length * lineGap) {
-//     yPos = height;
-//   }
-// }
+  // If the whole story has moved off screen,
+  // move it back to the bottom
+  if (yPos < -storyText.length * lineGap) {
+    yPos = height;
+  }
+}
 
 /////////////////////////////////////////////////////////
 // Challenge 1: Background music
