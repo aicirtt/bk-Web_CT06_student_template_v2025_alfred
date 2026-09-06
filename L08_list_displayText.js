@@ -299,7 +299,7 @@ function mousePressed() {
 
 
 /////////////////////////////////////////////////////////
-//challenge 3  extra that i added in
+//challenge 3  extra that i added in click to pause
 // let storyText = [
 //   "A long time ago in a galaxy far,",
 //   "far away...",
