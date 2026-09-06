@@ -99,21 +99,56 @@ function draw() {
 // Task 4: Endless Scrolling
 
 let storyText = [
-    "A long time ago in a galaxy far,",
-    "far away...",
-    "",
-    "EPISODE I",
-    "THE BEGINNING",
-    "",
-    "It is a period of learning...",
-    "Students have begun their journey",
-    "into the world of p5.js.",
-    "With newfound powers, they",
-    "create amazing visuals and",
-    "animations...",
-    "",
-    "May the Code be with you!"
+  "A long time ago in a galaxy far,",
+  "far away...",
+  "",
+  "EPISODE I",
+  "THE BEGINNING",
+  "",
+  "It is a period of learning...",
+  "Students have begun their journey",
+  "into the world of p5.js.",
+  "With newfound powers, they",
+  "create amazing visuals and",
+  "animations...",
+  "",
+  "May the Code be with you!"
 ];
+
+let yPos = 400;
+let lineGap = 35;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(0);
+
+  fill(255, 255, 0);
+  textSize(24);
+  textAlign(CENTER, CENTER);
+
+  // Display every line in the array
+  for (let i = 0; i < storyText.length; i++) {
+    let sentence = storyText[i];
+
+    text(
+      sentence,
+      width / 2,
+      yPos + i * lineGap
+    );
+  }
+
+  // Move the text upwards
+  yPos = yPos - 0.6;
+
+  // If the whole story has moved off screen,
+  // move it back to the bottom
+  if (yPos < -storyText.length * lineGap) {
+    yPos = height;
+  }
+}
 
 /////////////////////////////////////////////////////////
 // Challenge 1: Background music
