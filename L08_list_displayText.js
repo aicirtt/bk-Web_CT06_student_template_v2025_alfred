@@ -3,6 +3,16 @@
 /////////////////////////////////////////////////////////
 // Recap 1: Sliding Square
 // Task 1: Self Introduction
+function setup() {
+  createCanvas(400, 400);
+
+  textSize(16);
+
+  text("My name is Tricia", 50, 50);
+  text("I am 7 years old", 50, 100);
+  text("My favourite activity is coding", 50, 150);
+}
+
 // Task 2:
 // Task 3: Scrolling Words
 // Task 4: Endless Scrolling
