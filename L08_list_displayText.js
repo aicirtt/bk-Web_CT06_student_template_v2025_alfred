@@ -70,8 +70,9 @@
 // Task 4: Endless Scrolling
 let bgMusic;
 
-function preload()
-
+function preload(){
+  bgMusic = loadsound
+}
 let storyText = [
   "A long time ago in a galaxy far," ,
   "far away...." ,
