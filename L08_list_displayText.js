@@ -38,6 +38,8 @@ function setup(){
   background(220);
 
   text("My name is Tricia", 50, 50);
+  text("My name is Tricia", 50, 50);
+
 }
 
 
