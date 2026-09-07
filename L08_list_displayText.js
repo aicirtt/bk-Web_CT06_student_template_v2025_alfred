@@ -96,7 +96,7 @@ function draw(){
 
   //display each line in the array 
   for(let i = 0 ; i<storyText.length ; i++){
-    let sentence = storyText
+    let sentence = storyText[i];
     text(storyText[i], 50 , 80+i*25);
   }
 
