@@ -18,8 +18,8 @@ function setup(){
 function draw(){
   background(220);
   //draw square 
-  fill()
-  
+  fill(r,g,b)
+  square()  
   // move horizontally
 
 }
