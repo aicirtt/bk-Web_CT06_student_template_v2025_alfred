@@ -46,6 +46,7 @@
 // Task 2:
 let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta","rice"]
 
+let yPos=400;
 
 function setup(){
   createCanvas(400,400);
