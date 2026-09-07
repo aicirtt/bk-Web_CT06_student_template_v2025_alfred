@@ -36,7 +36,7 @@ function setup(){
   createCanvas(400,400);
   textSize(16);
 
-  text("My name is Tricia", 50, 50);
+  text("My name is Tricia", 200, 50);
 }
 
 
