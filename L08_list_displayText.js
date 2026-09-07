@@ -23,6 +23,7 @@ function draw(){
 
   // move horizontally
   x=x+speed;
+
   
 
 }
