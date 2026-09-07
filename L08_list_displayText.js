@@ -52,7 +52,7 @@ function setup(){
 
   text("My favourite foods: ",50,50);
 
-  for(let i = 0 ; i < foods.length; i++) {
+  for(let i = 0 ; i <5; i++) {
     text((i+1)+". " + foods[i] , 50, 80+i*25);
   }
 }
