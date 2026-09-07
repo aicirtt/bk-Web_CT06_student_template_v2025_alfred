@@ -8,6 +8,8 @@ function setup(){
 }
 function draw(){
   //draw square 
+
+  // move horizontally
   
 }
 // Task 1: Self Introduction
