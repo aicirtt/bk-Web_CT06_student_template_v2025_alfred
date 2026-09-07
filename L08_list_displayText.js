@@ -50,6 +50,8 @@ function setup(){
   createCanvas(400,400);
   textSize(16);
 
+  textAlign(left);
+
   text("My favourite foods: ",50,50);
 
   for(let i = 0 ; i <foods.length; i++) {
