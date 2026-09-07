@@ -2,6 +2,7 @@
 
 /////////////////////////////////////////////////////////
 // Recap 1: Sliding Square
+// Task 1: Self Introduction
 
 
 
@@ -21,6 +22,7 @@
 
 
 
+// Recap 1: Sliding Square
 
 // let x = 0;
 // let y = 120;
