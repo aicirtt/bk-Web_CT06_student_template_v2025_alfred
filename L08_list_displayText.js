@@ -102,6 +102,7 @@ function draw(){
     text(sentence, width/2, yPos+i*25);
   }
 
+  y
 }
 // Challenge 1: Background music
 // Challenge 2: Click to start
