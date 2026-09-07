@@ -7,6 +7,7 @@ function setup(){
   createCanvas(400,300);
 }
 function draw(){
+  //draw square 
   
 }
 // Task 1: Self Introduction
