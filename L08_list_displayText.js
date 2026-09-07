@@ -85,7 +85,7 @@ let storyText = [
 ];
 
 let yPos=400;
-// let lineGap=35;
+let lineGap=35;
 
 function setup(){
   createCanvas(400,400);
@@ -100,7 +100,7 @@ function draw(){
   //display each line in the array 
   for(let i = 0 ; i<storyText.length ; i++){
     let sentence = storyText[i];
-    text(sentence, width/2, yPos+i*35);
+    text(sentence, width/2, yPos+i*lineGap);
   }
 
   yPos=yPos - 0.6;
