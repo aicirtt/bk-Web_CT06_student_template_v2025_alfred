@@ -58,10 +58,12 @@ function draw(){
   fill(255);
 
   text("My favourite foods: ",50,50);
-  
+
   for(let i = 0 ; i <foods.length; i++) {
     text((i+1)+". " + foods[i] , 50, 80+i*25);
   }
+
+  
 }
 
 
