@@ -80,8 +80,9 @@ let storyText = [
   "With newfound powers, they",
   "create amazing visuals and",
   "animations..." ,
-  ""
-]
+  "",
+  "May the Code be with you!"
+];
 // Challenge 1: Background music
 // Challenge 2: Click to start
 
