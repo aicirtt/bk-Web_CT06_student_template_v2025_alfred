@@ -73,6 +73,7 @@ let storyText = [
   "far away...." ,
   "EPISODE 1" ,
   "THE BEGINNING",
+  "",
   
 ]
 // Challenge 1: Background music
