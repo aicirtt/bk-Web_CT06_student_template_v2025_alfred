@@ -69,7 +69,7 @@
 
 // Task 4: Endless Scrolling
 let bgMusic;
-let started = false;
+let started = false; //boolean flag
 
 function preload(){
   bgMusic = loadSound("assets/star_wars_theme_8_bit.mp3");
