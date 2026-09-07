@@ -95,7 +95,9 @@ function draw(){
   textAlign(CENTER ,CENTER);
 
   //display each line in the array 
-  
+  for(let i = 0 ; i<storyText.length ; i++){
+    
+  }
 
 }
 // Challenge 1: Background music
