@@ -85,6 +85,7 @@ let storyText = [
 ];
 
 let yPos=400;
+let lineGap=35;
 
 function setup(){
   createCanvas(400,400);
