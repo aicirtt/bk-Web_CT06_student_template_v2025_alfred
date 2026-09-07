@@ -68,6 +68,8 @@
 
 
 // Task 4: Endless Scrolling
+let bgMusic;
+
 let storyText = [
   "A long time ago in a galaxy far," ,
   "far away...." ,
@@ -106,7 +108,7 @@ function draw(){
   yPos= yPos - 0.6;
 
   //if story is gone , we want to move it back to the bottom
-  if (yPos < storyText.length*lineGap){
+  if (yPos < -storyText.length*lineGap){
     yPos=height;
   }
 
