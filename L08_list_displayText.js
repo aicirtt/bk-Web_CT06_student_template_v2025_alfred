@@ -50,7 +50,7 @@ function setup(){
   createCanvas(400,400);
   textSize(16);
 
-  textAlign(RIGHT);
+  textAlign(LEFT);
 
   text("My favourite foods: ",50,50);
 
