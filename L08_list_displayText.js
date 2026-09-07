@@ -92,7 +92,7 @@ function draw(){
   background(0);
   fill(255,255,0);
   textSize(24);
-  textAlign(CENTEr ,CEN)
+  textAlign(CENTER ,CENTER)
 
 }
 // Challenge 1: Background music
