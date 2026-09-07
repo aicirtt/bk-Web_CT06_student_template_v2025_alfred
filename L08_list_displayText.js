@@ -23,7 +23,7 @@ function draw(){
 
   // move horizontally
   x=x+speed;
-  if(x <= 0 || x >= width){
+  if(x <= 0 ||  x+size >= width){
     speed = speed * -1 ;
     r= random(255);
     g= random(255);
