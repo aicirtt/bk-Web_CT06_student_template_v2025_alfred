@@ -94,6 +94,7 @@ function draw(){
   textSize(24);
   textAlign(CENTER ,CENTER);
 
+  //display each line in the array 
   
 
 }
