@@ -44,7 +44,7 @@
 
 
 // Task 2:
-let foods = []
+let foods = ["Pizza", "Burger"]
 
 // Task 3: Scrolling Words
 // Task 4: Endless Scrolling
