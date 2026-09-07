@@ -77,6 +77,7 @@ let storyText = [
   "It is a period of learning...",
   "Student have begun their journey",
   "into the world of p5.js." ,
+  "With newfound powers, they"
 ]
 // Challenge 1: Background music
 // Challenge 2: Click to start
