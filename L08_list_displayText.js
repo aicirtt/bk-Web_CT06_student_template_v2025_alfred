@@ -106,8 +106,8 @@ function draw(){
   yPos= yPos - 0.6;
 
   //if story is gone , we want to move it back to the bottom
-  if (yPos < storyText.length*lineGap){
-    yPos=innerHeight;
+  if (yPos < - storyText.length*lineGap){
+    yPos=height;
   }
 
 }
