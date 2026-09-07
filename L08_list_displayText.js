@@ -24,7 +24,7 @@ function draw(){
   // move horizontally
   x=x+speed;
   if(x <= 0 || x >= width){
-    speed
+    speed = speed -1 ;
   }
 
 }
