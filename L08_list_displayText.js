@@ -75,7 +75,7 @@ let storyText = [
   "THE BEGINNING",
   "",
   "It is a period of learning...",
-  "S"
+  "Student have begun their journey"
 ]
 // Challenge 1: Background music
 // Challenge 2: Click to start
