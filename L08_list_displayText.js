@@ -6,7 +6,7 @@
 let x =0;
 let y=120;
 let size=40;
-l
+let 
 function setup(){
   createCanvas(400,300);
 }
