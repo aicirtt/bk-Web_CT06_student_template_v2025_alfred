@@ -51,7 +51,6 @@ let yPos=400;
 function setup(){
   createCanvas(400,400);
   textSize(16);
-
   textAlign(LEFT);
 
 }
@@ -60,7 +59,6 @@ function draw(){
   background(0);
   fill(255);
   
-
   text("My favourite foods: ",50,50);
 
   for(let i = 0 ; i <foods.length; i++) {
