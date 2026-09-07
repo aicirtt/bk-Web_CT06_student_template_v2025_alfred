@@ -128,6 +128,8 @@ function draw(){
 function mousePressed(){
   if(started==false){
     started=true;
+
+    userStartAudio()
   }
 }
 // Challenge 1: Background music
