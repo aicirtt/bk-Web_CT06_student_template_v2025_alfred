@@ -35,7 +35,8 @@
 function setup(){
   createCanvas(400,400);
   textSize(16);
-  
+
+  text("")
 }
 
 
