@@ -326,104 +326,104 @@
 
 /////////////////////////////////////////////////////////
 //challenge 3  extra that i added in click to pause
-let storyText = [
-  "A long time ago in a galaxy far,",
-  "far away...",
-  "",
-  "EPISODE I",
-  "THE BEGINNING",
-  "",
-  "It is a period of learning...",
-  "Students have begun their journey",
-  "into the world of p5.js.",
-  "With newfound powers, they",
-  "create amazing visuals and",
-  "animations...",
-  "",
-  "May the Code be with you!"
-];
+// let storyText = [
+//   "A long time ago in a galaxy far,",
+//   "far away...",
+//   "",
+//   "EPISODE I",
+//   "THE BEGINNING",
+//   "",
+//   "It is a period of learning...",
+//   "Students have begun their journey",
+//   "into the world of p5.js.",
+//   "With newfound powers, they",
+//   "create amazing visuals and",
+//   "animations...",
+//   "",
+//   "May the Code be with you!"
+// ];
 
-let yPos = 400;
-let lineGap = 35;
+// let yPos = 400;
+// let lineGap = 35;
 
-let bgMusic;
+// let bgMusic;
 
-let started = false;
-let playing = false;
+// let started = false;
+// let playing = false;
 
-function preload() {
-  bgMusic = loadSound("star_wars_theme_8_bit.mp3");
-}
+// function preload() {
+//   bgMusic = loadSound("star_wars_theme_8_bit.mp3");
+// }
 
-function setup() {
-  createCanvas(400, 400);
-}
+// function setup() {
+//   createCanvas(400, 400);
+// }
 
-function draw() {
-  background(0);
+// function draw() {
+//   background(0);
 
-  // Before first click
-  if (started == false) {
-    fill(255);
-    textSize(24);
-    textAlign(CENTER, CENTER);
-    text("Click to start the show", width / 2, height / 2);
-  }
+//   // Before first click
+//   if (started == false) {
+//     fill(255);
+//     textSize(24);
+//     textAlign(CENTER, CENTER);
+//     text("Click to start the show", width / 2, height / 2);
+//   }
 
-  else {
-    fill(255, 255, 0);
-    textSize(24);
-    textAlign(CENTER, CENTER);
+//   else {
+//     fill(255, 255, 0);
+//     textSize(24);
+//     textAlign(CENTER, CENTER);
 
-    for (let i = 0; i < storyText.length; i++) {
-      text(
-        storyText[i],
-        width / 2,
-        yPos + i * lineGap
-      );
-    }
+//     for (let i = 0; i < storyText.length; i++) {
+//       text(
+//         storyText[i],
+//         width / 2,
+//         yPos + i * lineGap
+//       );
+//     }
 
-    // Only move when playing
-    if (playing == true) {
-      yPos = yPos - 0.6;
-    }
+//     // Only move when playing
+//     if (playing == true) {
+//       yPos = yPos - 0.6;
+//     }
 
-    // Reset when text goes off screen
-    if (yPos < -storyText.length * lineGap) {
-      yPos = height;
-    }
+//     // Reset when text goes off screen
+//     if (yPos < -storyText.length * lineGap) {
+//       yPos = height;
+//     }
 
-    // Show paused message
-    if (playing == false) {
-      fill(255);
-      textSize(18);
-      text("PAUSED - Click to continue", width / 2, 30);
-    }
-  }
-}
+//     // Show paused message
+//     if (playing == false) {
+//       fill(255);
+//       textSize(18);
+//       text("PAUSED - Click to continue", width / 2, 30);
+//     }
+//   }
+// }
 
-function mousePressed() {
+// function mousePressed() {
 
-  // First click starts
-  if (started == false) {
-    started = true;
-    playing = true;
+//   // First click starts
+//   if (started == false) {
+//     started = true;
+//     playing = true;
 
-    userStartAudio();
-    bgMusic.loop();
-  }
+//     userStartAudio();
+//     bgMusic.loop();
+//   }
 
-  // Later clicks pause/resume
-  else {
-    playing = !playing;
+//   // Later clicks pause/resume
+//   else {
+//     playing = !playing;
 
-    if (playing == true) {
-      bgMusic.play();
-    } else {
-      bgMusic.pause();
-    }
-  }
-}
+//     if (playing == true) {
+//       bgMusic.play();
+//     } else {
+//       bgMusic.pause();
+//     }
+//   }
+// }
 
 
 
