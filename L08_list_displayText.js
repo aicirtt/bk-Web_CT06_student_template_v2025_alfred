@@ -50,7 +50,8 @@ function setup(){
   createCanvas(400,400);
   textSize(16);
 
-  text("My favourite foods: ",50,50)
+  text("My favourite foods: ",50,50);
+  
 }
 
 // Task 3: Scrolling Words
