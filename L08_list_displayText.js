@@ -43,7 +43,8 @@
 // }
 
 
-// Task 2:
+// Task 2/3
+// :
 let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta","rice"]
 
 let yPos=400;
