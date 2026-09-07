@@ -8,6 +8,8 @@ let y=120;
 let size=40;
 let speed=2;
 
+let r=150;
+let g=
 function setup(){
   createCanvas(400,300);
 }
