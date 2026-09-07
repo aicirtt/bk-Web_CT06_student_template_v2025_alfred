@@ -3,6 +3,8 @@
 /////////////////////////////////////////////////////////
 // Recap 1: Sliding Square
 // Task 1: Self Introduction
+// Task 2:
+// Task 3: Scrolling Words
 
 
 
