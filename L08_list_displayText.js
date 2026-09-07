@@ -19,7 +19,7 @@ function draw(){
   background(220);
   //draw square 
   fill(r,g,b)
-  square()  
+  square(x,y,)  
   // move horizontally
 
 }
