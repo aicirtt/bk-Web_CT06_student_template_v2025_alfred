@@ -22,7 +22,8 @@ function draw(){
   square(x,y,size);  
 
   // move horizontally
-  x=x+speed
+  x=x+speed;
+  
 
 }
 // Task 1: Self Introduction
