@@ -34,7 +34,7 @@
 // Task 1: Self Introduction
 function setup(){
   createCanvas(400,400);
-  textSize(50);
+  textSize(16);
   background(220);
 
   text("My name is Tricia", 50, 50);
