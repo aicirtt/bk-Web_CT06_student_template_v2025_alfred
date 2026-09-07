@@ -103,7 +103,7 @@ function draw(){
     text(sentence, width/2, yPos+i*lineGap);
   }
 
-  yPos= yPos - 1;
+  yPos= yPos - 0.6;
 }
 // Challenge 1: Background music
 // Challenge 2: Click to start
