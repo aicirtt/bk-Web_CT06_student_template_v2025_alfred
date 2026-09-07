@@ -8,7 +8,7 @@
 // Task 4: Endless Scrolling
 
 // Challenge 1: Background music
-// // Challenge 2: Click to start
+// Challenge 2: Click to start
 
 
 
