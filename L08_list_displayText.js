@@ -3,34 +3,34 @@
 /////////////////////////////////////////////////////////
 // Recap 1: Sliding Square
 
-let x =0;
-let y=120;
-let size=40;
-let speed=2;
+// let x =0;
+// let y=120;
+// let size=40;
+// let speed=2;
 
-let r=100;
-let g=50;
-let b=200;
+// let r=100;
+// let g=50;
+// let b=200;
 
-function setup(){
-  createCanvas(400,300);
-}
-function draw(){
-  background(220);
-  //draw square 
-  fill(r,g,b)
-  square(x,y,size);  
+// function setup(){
+//   createCanvas(400,300);
+// }
+// function draw(){
+//   background(220);
+//   //draw square 
+//   fill(r,g,b)
+//   square(x,y,size);  
 
-  // move horizontally
-  x=x+speed;
-  if(x <= 0 ||  x+size >= width){
-    speed = speed * -1 ;
-    r= random(255);
-    g= random(255);
-    b= random(255);
-  }
+//   // move horizontally
+//   x=x+speed;
+//   if(x <= 0 ||  x+size >= width){
+//     speed = speed * -1 ;
+//     r= random(255);
+//     g= random(255);
+//     b= random(255);
+//   }
 
-}
+// }
 // Task 1: Self Introduction
 
 
