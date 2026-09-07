@@ -32,7 +32,9 @@
 
 // }
 // Task 1: Self Introduction
-
+function setup(){
+  
+}
 
 
 // Task 2:
