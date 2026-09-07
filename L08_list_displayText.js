@@ -62,7 +62,8 @@ function setup(){
 }
 
 function draw(){
-  FileList(255)
+  background(0);
+  fill(255)
 }
 
 
