@@ -43,8 +43,7 @@
 // }
 
 
-// Task 2/3
-// :
+// Task 2/3:
 let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta","rice"]
 
 let yPos=400;
@@ -60,6 +59,10 @@ function setup(){
   for(let i = 0 ; i <foods.length; i++) {
     text((i+1)+". " + foods[i] , 50, 80+i*25);
   }
+}
+
+function draw(){
+  FileList(255)
 }
 
 
