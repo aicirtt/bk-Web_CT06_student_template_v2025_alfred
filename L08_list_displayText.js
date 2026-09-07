@@ -129,7 +129,8 @@ function mousePressed(){
   if(started==false){
     started=true;
 
-    userStartAudio()
+    userStartAudio();
+    bgMusic.loop();
   }
 }
 // Challenge 1: Background music
