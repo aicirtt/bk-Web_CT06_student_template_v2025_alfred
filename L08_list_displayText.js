@@ -63,7 +63,7 @@ function draw(){
     text((i+1)+". " + foods[i] , 50, 80+i*25);
   }
 
-  yPos = yPos +1 ;
+  yPos = yPos - 1 ;
 }
 
 
