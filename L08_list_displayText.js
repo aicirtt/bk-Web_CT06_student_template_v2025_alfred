@@ -89,7 +89,9 @@ function setup(){
 }
 
 function draw(){
-  background(0)
+  background(0);
+  FileList(255,255,0);
+  
 }
 // Challenge 1: Background music
 // Challenge 2: Click to start
