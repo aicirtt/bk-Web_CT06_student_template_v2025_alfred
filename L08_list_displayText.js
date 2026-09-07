@@ -104,6 +104,8 @@ function draw(){
   }
 
   yPos= yPos - 0.6;
+
+  
 }
 // Challenge 1: Background music
 // Challenge 2: Click to start
