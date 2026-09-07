@@ -126,7 +126,9 @@ function draw(){
 }
 
 function mousePressed(){
-  if(started==false){}
+  if(started==false){
+    started=true;
+  }
 }
 // Challenge 1: Background music
 // Challenge 2: Click to start
