@@ -37,7 +37,7 @@ function setup(){
   textSize(16);
   background(220);
 
-  text("My name is Tricia", 200, 50);
+  text("My name is Tricia", 50, 50);
 }
 
 
