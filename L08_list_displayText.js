@@ -20,8 +20,9 @@ function draw(){
   //draw square 
   fill(r,g,b)
   square(x,y,size);  
-  
+
   // move horizontally
+  x=x+speed
 
 }
 // Task 1: Self Introduction
