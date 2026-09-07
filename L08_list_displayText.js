@@ -100,6 +100,11 @@ function setup(){
 function draw(){
   background(0);
   // bgMusic.play();
+
+  //click to start 
+  
+
+
   fill(255,255,0);
   textSize(24);
   textAlign(CENTER ,CENTER);
