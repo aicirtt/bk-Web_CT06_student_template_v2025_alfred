@@ -100,12 +100,6 @@ function setup(){
 
 function draw(){
   background(0);
-  // bgMusic.play();
-
-  //click to start 
-  
-
-
   fill(255,255,0);
   textSize(24);
   textAlign(CENTER ,CENTER);
@@ -125,14 +119,14 @@ function draw(){
 
 }
 
-function mousePressed(){
-  if(started==false){
-    started=true;
+// function mousePressed(){
+//   if(started==false){
+//     started=true;
 
-    userStartAudio();
-    bgMusic.loop();
-  }
-}
+//     userStartAudio();
+//     bgMusic.loop();
+//   }
+// }
 // Challenge 1: Background music
 // Challenge 2: Click to start
 
