@@ -46,7 +46,10 @@
 // Task 2:
 let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"]
 
-function setup()
+function setup(){
+  createCanvas(400,400);
+  
+}
 
 // Task 3: Scrolling Words
 // Task 4: Endless Scrolling
