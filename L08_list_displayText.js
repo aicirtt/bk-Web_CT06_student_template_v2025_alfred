@@ -39,6 +39,7 @@ function setup(){
 
   text("My name is Tricia", 50, 50);
   text("I am 7 years old", 50, 100);
+  text("I am 7 years old", 50, 100);
 
 }
 
