@@ -4,7 +4,7 @@
 // Recap 1: Sliding Square
 
 function setup(){
-  crea
+  createCanvas(400,300);
 }
 // Task 1: Self Introduction
 
