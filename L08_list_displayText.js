@@ -44,7 +44,7 @@
 
 
 // Task 2:
-let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"]
+let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta","rice"]
 
 function setup(){
   createCanvas(400,400);
