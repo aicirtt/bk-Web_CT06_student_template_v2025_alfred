@@ -57,8 +57,9 @@ function setup(){
 }
 
 function draw(){
-  background(220);
-  fil
+  background(0);
+  fill(255)
+  
 
   text("My favourite foods: ",50,50);
 
