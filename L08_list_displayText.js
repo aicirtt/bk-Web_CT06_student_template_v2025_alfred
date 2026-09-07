@@ -44,27 +44,27 @@
 
 
 // Task 2/3:
-let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta","rice"]
-let yPos=400;
+// let foods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta","rice"]
+// let yPos=400;
 
-function setup(){
-  createCanvas(400,400);
-  textSize(16);
-  textAlign(LEFT);
-}
+// function setup(){
+//   createCanvas(400,400);
+//   textSize(16);
+//   textAlign(LEFT);
+// }
 
-function draw(){
-  background(0);
-  fill(255);
+// function draw(){
+//   background(0);
+//   fill(255);
 
-  text("My favourite foods: ",50,yPos);
+//   text("My favourite foods: ",50,yPos);
 
-  for(let i = 0 ; i <foods.length; i++) {
-    text((i+1)+". " + foods[i] , 50, yPos+30+i*25);
-  }
+//   for(let i = 0 ; i <foods.length; i++) {
+//     text((i+1)+". " + foods[i] , 50, yPos+30+i*25);
+//   }
 
-  yPos = yPos - 1 ;
-}
+//   yPos = yPos - 1 ;
+// }
 
 
 // Task 3: Scrolling Words
