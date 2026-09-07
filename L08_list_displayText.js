@@ -96,7 +96,7 @@ function draw(){
 
   //display each line in the array 
   for(let i = 0 ; i<storyText.length ; i++){
-    
+    text(storyText[i])
   }
 
 }
